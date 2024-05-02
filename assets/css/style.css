@@ -28,7 +28,7 @@ html{
 body{	
 	font-size: 1.6rem; 
 	font-weight: 400;
-	background-color: #0F2233;
+	background: #040409;
 	font-family: "Poppins", sans-serif;
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -114,14 +114,37 @@ ul li a,a{
 
 .banner_area {
 	padding: 225px 0 145px 0;
+	position: relative;
 }
 
-.banner {
-	/* position: relative;
-	z-index: 9; */
-	width: 78%;
+.banner_shape_1 img {
+	position: absolute;
+	top: 0; 
+	right: 0;
+	width: 3100px;
+	z-index: -3;
+}
+
+.banner_shape_2 img {
+	width: 917px;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: -2;
+}
+
+.banner { 
+	width: 70%;
 	margin: 0 auto;
-} 
+}
+
+.banner_presale {
+	width: 73%;
+}
+
+.banner_presale p {
+	margin-bottom: 25px;
+}
 
 .banner h2 { 
 	color: var(--P5, #FFF);
@@ -142,14 +165,23 @@ ul li a,a{
 	font-style: normal;
 	font-weight: 400;
 	line-height: 32px;
-	letter-spacing: -0.36px;
-	max-width: 80%;
+	letter-spacing: -0.36px; 
 	width: 100%;
 	margin: 0 auto;
 }
 
 .facility_area{
 	position: relative;
+}
+
+.facility_bg_shape img {
+	width: 1088px;
+	position: absolute;
+	bottom: -604px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: -1;
 }
 
 .facility_box {
@@ -282,9 +314,9 @@ ul li a,a{
 }
 
 .join_area {
-	position: relative;
-	/* background: #091B2A; */
+	position: relative; 
 	padding: 120px 0 185px 0;
+	z-index: 999;
 }
 
 .btn_2 {
@@ -527,5 +559,142 @@ ul li a,a{
 }
 
 /*======== Stacking End Page  ==========*/
+
+/*======== Presale Start Page  ==========*/
+
+.facilit_title h3 {
+	color: #FFF;
+	font-family: Thunder;
+	font-size: 112px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 90%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.facilit_title h3 span{
+	color: #FCFF8B; 
+}
+
+.facilit_title {
+	position: relative;
+	margin-bottom: 81px;
+}
+
+.facilit_title img {
+	width: 392px;
+	position: absolute;
+	top: -187px;
+	right: 192px;
+	z-index: -1;
+}
+
+.presale_shape_facility img {
+	width: 390px;
+	position: absolute;
+	top: -52px;
+	right: 0;
+}
+
+.presale_shape_facility_2 img {
+	width: 819px;
+	position: absolute;
+	left: 0;
+	bottom: -71%;
+	z-index: -1;
+}
+
+.presale_income_area {
+	margin: 0 0 384px 0;
+	position: relative;
+}
+
+.presale_box_facility {
+	margin-bottom: 73px;
+}
+
+.presale_income_shape img {
+	width: 386px;
+	position: absolute;
+	right: 0;
+	bottom: -340px;
+	z-index: 9;
+}
+
+.banner.banner_presale p {
+	margin-bottom: 20px;
+}
+
+/*======== Presale End Page  ==========*/
+
+
+/*======== Token Start Page  ==========*/
+
+.token_child_box {
+	border-radius: 32px;
+	background: #0A0824; 
+}
+
+.token_fac_box{
+	/* background: #FFF; */
+	background: url(../images/tokenomics/bg.png) no-repeat scroll center center / 100% 100%;
+	position: relative;
+}
+
+.facility_box.token_fac_box h3 {
+	color: #060712;
+	font-family: Thunder;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 100%;
+	letter-spacing: 0.64px;
+	text-transform: uppercase;
+	width: 64%;
+}
+
+.clip_token_box {
+	clip-path: polygon(0 0, 100% 0%, 100% 100%, 38% 100%);
+	width: 244px;
+	height: 61px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #161712;
+	display: inline-block;
+}
+
+.tokenomics_fac_area{
+	position: relative;
+}
+
+.token_fac_shape_1 img {
+	width: 370px;
+	position: absolute;
+	top: -221px;
+	left: 265px; 
+	z-index: -1;
+}
+
+.token_fac_shape_2 img {
+	width: 301px;
+	position: absolute;
+	top: -51px;
+	right: 0;
+	z-index: 9;
+}
+
+.token_fac_shape_3 img {
+	width: 334px;
+	position: absolute;
+	bottom: -311px;
+	left: 0;
+	z-index: 9;
+}
+
+/*======== Token End Page  ==========*/
+
+
 
 
