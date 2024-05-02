@@ -21,6 +21,21 @@
     .facility_img img { 
         height: 515px;
     }
+    .farming_shape img {
+        width: 453px; 
+        top: -168px;
+        right: -53px;
+    }
+    .facility_child_box p { 
+        font-size: 16px; 
+    }
+    .join_first_shape img {
+        width: 365px; 
+    }
+    .join_second_shape img {
+        width: 341px;
+        bottom: -172px; 
+    }
 }
 
 @media all and (min-width: 991px){
@@ -32,6 +47,29 @@
 @media all and (max-width: 991px){
     .menu { 
         flex-direction: column;
+    }
+    .join_row { 
+        flex-direction: column;
+    }
+    .last_footer .menu ul {
+        flex-direction: row-reverse;
+        flex-wrap: wrap; 
+        gap: 0px 24px;
+    }
+    .join_second_shape img {
+        width: 247px; 
+    }
+    .farming_shape img {
+        width: 261px; 
+    }
+    .join_first_shape img {
+        width: 225px;
+    }
+    .facility_box { 
+        margin-bottom: 256px;
+    }
+    .join_left h3 { 
+        font-size: 113px; 
     }
     .banner p { 
         max-width: 100%; 
@@ -115,15 +153,31 @@
     .banner { 
         width: 100%; 
     }
+    .join_first_shape img { 
+        display: none;
+    }
+    .join_right p { 
+        font-size: 16px; 
+        width: 100%;
+    }
+    .facility_box h3 { 
+        font-size: 65px; 
+    }
+    .join_second_shape img { 
+        display: none;
+    }
+    .last_footer .menu ul { 
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .footer_last p { 
+        text-align: center;
+    }
     .join_box h3 { 
         font-size: 28px; 
         line-height: 8px;
         margin-bottom: 22px;
-    }
-    .footer {
-        margin-top: 270px;
-        padding: 100px 0 56px 0; 
-    }
+    } 
     .footer_row { 
         flex-direction: column;
     }
@@ -155,9 +209,21 @@
     }
     .footer_copy_right p { 
         font-size: 14px; 
+    } 
+    .btn_1 { 
+        font-size: 16px; 
     }
     .join_area { 
-        top: -259px;
+        padding: 100px 0;
+    }
+    .facility_box {
+        margin-bottom: 0;
+    }
+    .join_left h3 {
+        font-size: 70px;
+    }
+    .farming_shape img { 
+        display: none;
     }
 }
 
@@ -169,8 +235,16 @@
     .footer_first p { 
         width: 100%;
     }
+    .facility_child_box { 
+        padding: 30px; 
+    } 
+    .facility_area { 
+        margin: 0 0 50px 0;
+    }
 }
 
 @media all and (max-width: 450px){
-	
+    .facility_box h3 {
+        font-size: 49px;
+    }
 }

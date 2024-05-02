@@ -322,11 +322,7 @@ ul li a,a{
 	z-index: 9;
 }
 
- 
-
-.footer {
-	/* background-color: #000;  */
-}
+  
 
 .footer_row {
 	padding: 56px 0;
@@ -450,18 +446,84 @@ ul li a,a{
 
 /*======== Stacking Start Page  ==========*/
 
-.stacking_area {
-	background-image: url(../images/stacking/banner.png);
-	padding: 155px 0 88px 0;
+.income_box {
+	background: #fff;
+	border-radius: 25px;
+	padding: 48px;
+	position: relative;
+	z-index: 9;
+} 
+
+.income_left h3 {
+	color: #040409;
+	font-family: Thunder;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+	letter-spacing: 0.64px;
+	text-transform: uppercase;
+	margin-bottom: 103px;
 }
 
-.facility_img.stacking_facilty_img img {
-	height: auto;
-	transform: translateY(125px);
+.income_left p {
+	color: #000;
+	font-family: "Rethink Sans";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 52px;
 }
 
-.facility_area.stacking_faci_area {
-	margin-top: 33px;
+.income_right img {
+	width: 100%;
+}
+
+.btn_3 {
+	border-radius: 40px;
+	background: rgba(39, 122, 202, 0.15);
+	padding: 20px 30px;
+	color: #277ACA;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: -0.4px;
+	text-transform: capitalize;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.btn_3:hover {
+	opacity: 0.83;
+}
+
+.income_area {
+	margin: 100px 0 290px 0;
+	position: relative;
+}
+
+.income_shape_1 img {
+	width: 487px;
+	position: absolute;
+	top: 0;
+	right: 0px;
+}
+
+.income_shape_1 img {
+	width: 487px;
+	position: absolute;
+	top: -264px;
+	right: 322px;
+}
+
+.income_shape_2 img {
+	width: 390px;
+	position: absolute;
+	bottom: -317px;
+	left: 0;
 }
 
 /*======== Stacking End Page  ==========*/
